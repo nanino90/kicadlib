@@ -1,4 +1,4 @@
-(module 1306_DISPLAY (layer F.Cu) (tedit 5D2DA475)
+(module 1306_DISPLAY (layer F.Cu) (tedit 5D34B1C1)
   (fp_text reference REF** (at 6.4 -15.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -19,4 +19,9 @@
   (pad 2 thru_hole circle (at -1.28 -13) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.26 -13) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.8 -13) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
+  (model ${KIUSER3DLIB}/1306_display.wrl
+    (offset (xyz 3.75 13 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
 )
