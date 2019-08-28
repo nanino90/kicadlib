@@ -1,4 +1,4 @@
-(module Converter_ACDC_HiLink_HLK-PMxx (layer F.Cu) (tedit 5D358B57)
+(module Converter_ACDC_HiLink_HLK-PMxx (layer F.Cu) (tedit 5D35E805)
   (descr "ACDC-Converter, 3W, HiLink, HLK-PMxx, THT, http://www.hlktech.net/product_detail.php?ProId=54")
   (tags "ACDC-Converter 3W THT HiLink board mount module")
   (fp_text reference REF** (at -3.94 -0.55 90) (layer F.SilkS)
@@ -30,7 +30,7 @@
   (pad 2 thru_hole circle (at 0 5) (size 2.3 2.3) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.3 2) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 29.4 -5.2) (size 2.3 2.3) (drill 1) (layers *.Cu *.Mask))
-  (model "${KIUSER3DLIB}/User Library-HLK-PM01.step"
+  (model ${KIUSER3DLIB}/HLK-PM01.step
     (offset (xyz 14.7 7.5 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

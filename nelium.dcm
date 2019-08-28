@@ -16,4 +16,28 @@ K NMOS FVD MOSFET
 F http://www.farnell.com/datasheets/1874902.pdf?_ga=2.174787297.2141582226.1563210165-220047213.1563210165
 $ENDCMP
 #
+$CMP SARA-U201
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U260
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U270
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U280
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
 #End Doc Library

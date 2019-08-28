@@ -1,4 +1,4 @@
-(module ESP-12E_nelium (layer F.Cu) (tedit 5D3589C5)
+(module ESP-12E_nelium (layer F.Cu) (tedit 5D35E84B)
   (descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf")
   (tags "Wi-Fi Module")
   (attr smd)
@@ -69,7 +69,7 @@
   (pad 3 smd rect (at -7.6 0.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -7.6 -1.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -7.6 -3.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
-  (model "${KIUSER3DLIB}/User Library-EPS8266 ESP-12E-1.step"
+  (model ${KIUSER3DLIB}/ESP-12E-1.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
