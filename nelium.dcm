@@ -16,6 +16,12 @@ K NMOS FVD MOSFET
 F http://www.farnell.com/datasheets/1874902.pdf?_ga=2.174787297.2141582226.1563210165-220047213.1563210165
 $ENDCMP
 #
+$CMP RT9059GSP
+D Regulador de Tensión LDO, Ajustable, Entrada 1V a 5.5V, Caída 250mV, Salida 0.8V a 2.5V/3A, SOP-8
+K LDO voltage regulator adjustable 3A SOP-8
+F https://www.richtek.com/assets/product_file/RT9059/DS9059-10.pdf
+$ENDCMP
+#
 $CMP SARA-U201
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
 K GSM HSPA 2G 3G
@@ -38,6 +44,22 @@ $CMP SARA-U280
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
 K GSM HSPA 2G 3G
 F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SF72S006VBAR2500
+D Sim card nano
+K sim card nano
+F SF72S006VBAR2500
+$ENDCMP
+#
+$CMP SIM8055-6-1-14-00-A
+D Sim card nano hand solderable push pull
+K nano SIM card
+F SIM Nano Push Pull 6P, 1.35mmH, 3µ, No peg, w/switch, T&R
+$ENDCMP
+#
+$CMP Simcard504520-0691
+F 5045200691
 $ENDCMP
 #
 #End Doc Library

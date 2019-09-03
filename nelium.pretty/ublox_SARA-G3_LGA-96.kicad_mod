@@ -1,4 +1,4 @@
-(module ublox_SARA-G3_LGA-96 (layer F.Cu) (tedit 5D65CEB0)
+(module ublox_SARA-G3_LGA-96 (layer F.Cu) (tedit 5D68E3FB)
   (descr "ublox Sara GSM/HSPA modem, https://www.u-blox.com/sites/default/files/SARA-G3-U2_SysIntegrManual_%28UBX-13000995%29.pdf, pag.162")
   (tags "ublox SARA-G3 SARA-U2 GSM HSPA")
   (attr smd)
