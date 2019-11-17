@@ -52,6 +52,12 @@ K sim card nano
 F SF72S006VBAR2500
 $ENDCMP
 #
+$CMP SIM8055-6-1-14-00-A
+D Sim card nano hand solderable push pull
+K nano SIM card
+F SIM Nano Push Pull 6P, 1.35mmH, 3µ, No peg, w/switch, T&R
+$ENDCMP
+#
 $CMP Simcard504520-0691
 F 5045200691
 $ENDCMP
