@@ -16,10 +16,18 @@ K NMOS FVD MOSFET
 F http://www.farnell.com/datasheets/1874902.pdf?_ga=2.174787297.2141582226.1563210165-220047213.1563210165
 $ENDCMP
 #
+$CMP MIC69303YME
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580583
+$ENDCMP
+#
 $CMP RT9059GSP
 D Regulador de Tensión LDO, Ajustable, Entrada 1V a 5.5V, Caída 250mV, Salida 0.8V a 2.5V/3A, SOP-8
 K LDO voltage regulator adjustable 3A SOP-8
 F https://www.richtek.com/assets/product_file/RT9059/DS9059-10.pdf
+$ENDCMP
+#
+$CMP Regulator_Linear_AP2204RB-3.3
+F https://www.diodes.com/assets/Datasheets/AP2127.pdf
 $ENDCMP
 #
 $CMP SARA-U201
@@ -55,7 +63,7 @@ $ENDCMP
 $CMP SIM8055-6-1-14-00-A
 D Sim card nano hand solderable push pull
 K nano SIM card
-F SIM Nano Push Pull 6P, 1.35mmH, 3µ, No peg, w/switch, T&R
+F https://gct.co/files/drawings/sim8055.pdf
 $ENDCMP
 #
 $CMP Simcard504520-0691
